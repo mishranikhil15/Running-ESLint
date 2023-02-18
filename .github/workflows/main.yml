@@ -17,7 +17,7 @@ jobs:
      with:
           node-version: "18.x"
    - name: install packages
-     run: npm i
+     run: npm install
    - name: Run ESLint
      run: npx eslint            
 
